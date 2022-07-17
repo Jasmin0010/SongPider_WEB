@@ -1,0 +1,7 @@
+.navbar{
+    display:flex;
+    background: black;
+    width: 10%;
+    color:white;
+    padding-left: 20px;
+}
