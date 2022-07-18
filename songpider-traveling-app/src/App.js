@@ -1,13 +1,14 @@
-/*eslint-disable */
+// eslint-disable-next-line 
 import './App.css';
-import React, {Component, Fragment, useState} from 'react';
-import './components/navbar.js'
+import React, { Component, Fragment, useState } from 'react';
+import Location from './pages/location';
+
 
 //main
-function App(){
-  return(
-    <div className ="App">
-      <ResponsiveAppBar/>
+function App() {
+  return (
+    <div className='App'>
+      <Location/>
     </div>
   );
 }
